@@ -1,0 +1,24 @@
+   
+
+<br>Adicione suas Notas!!<br/></font>
+<input id="nota1"/> <br/>
+
+<button onclick="calcular()">Calcule sua Média</button>
+<br>
+
+<script type="text/javascript">
+let notas = []
+ function calcular() {
+ notas.push(parseInt(document.querySelector('#nota1').value))
+        console.log(notas)
+        let testando = 0;
+            
+ for(let i = 0; i < notas.length; i++) {
+     testando = testando + notas[i]
+     media = (testando/notas.length)
+    }
+alert('A soma é ' + testando + ' e a media é '+ media)
+    console.log(testando + " " + media)
+ }
+
+</script>

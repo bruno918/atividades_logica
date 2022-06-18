@@ -1,0 +1,18 @@
+<script>
+    var vl = parseInt(prompt('insira um valor'));
+    var vl1 = parseInt(prompt('insira um valor'));
+    var vl2 = parseInt(prompt('insira um valor'));
+    if ( vl < vl1 && vl1 < vl2  ) {
+   alert('a ordem e ' + vl + ', ' + vl1 + ', ' + vl2);
+    } else  if (vl1 < vl2 && vl2 < vl) {
+        alert('a ordem e ' + vl1 + ', ' + vl2 + ', ' + vl);
+    } else if ( vl1 < vl && vl < vl2) {
+        alert('a ordem e ' + vl1 + ', ' + vl + ', ' + vl2);
+  } else if ( vl < vl2 && vl2 < vl1) {
+        alert('a ordem e ' + vl + ', ' + vl2 + ', ' + vl1);
+    } else if ( vl2 < vl && vl < vl1) {
+        alert('a ordem e ' + vl2 + ', ' + vl + ', ' + vl1);
+    } else if (vl2 < vl1 && vl1 + vl) {
+        alert(' a ordem e ' + vl2 + ', ' + vl1 + ', ' + vl);
+    }
+</script>

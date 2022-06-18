@@ -1,0 +1,11 @@
+<script>
+    var ovos = parseInt(prompt('insira a quantidade de ovos vendidos'))
+    Math.trunc() // pega a parte inteira ex 2,99 = 2
+      var d = (ovos/12)
+      var duzia = Math.trunc(d)
+      var avulsos = (ovos - (duzia*12))
+      var pDuzia = (duzia*3.25)
+      var pAvulsos = (avulsos* 0.45)
+      alert(duzia + ' duzias e ' + avulsos + ' avulsos totalizando um custo de ' + pDuzia + ' pelas duzias e ' + pAvulsos + ' pelos avulsos. Total = ' + (pAvulsos + pDuzia))
+
+</script>

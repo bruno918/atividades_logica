@@ -1,0 +1,15 @@
+<script>
+    var salario = parseInt(prompt('insira seu salario'));
+var luz = parseInt(prompt('insira o valor de suas despesas de luz'));
+var aluguel = parseInt(prompt('insira o valor de suas despesas de aluguel'));
+var agua = parseInt(prompt('insira o valor de suas despesas de agua'));
+var cartao = parseInt(prompt('insira o valor de suas despesas de cartao'));
+var resto = salario - (luz + aluguel + agua + cartao)
+var pl = (luz / salario)* 100;
+var pa = (aluguel/ salario)*100;
+var pag = (agua / salario)* 100;
+var pc = (cartao / salario)*100;
+var sobra = (resto/salario)*100
+alert(' a porcentagem da luz foi ' + pl + ' aluguel: ' + pa + ' %, Agua ' + pag + ' cartão ' + pc + '%' + '. Sobraram ' + resto + ' reais  equivalentes a ' + sobra + '%');
+
+</script>

@@ -1,0 +1,21 @@
+<script>
+    let alunos =  ['Artur', 'João', 'Maria', 'Pedro'];
+    for(let i = 0; i < alunos.length; i++) {
+        console.log(alunos[i])
+    }
+    alunos.push('Ricardo'); // adiciona
+    console.log('depois');
+    for(let i = 0; i < alunos.length; i++) {
+        console.log(alunos[i])
+    }
+    alunos.splice(1,1)  //remove
+    console.log('depois');
+    for(let i = 0; i < alunos.length; i++) {
+        console.log(alunos[i])
+    }
+    function imprimir() {
+        for(let i = 0; i < alunos.length; i++) {
+        console.log(alunos[i])
+    }
+}
+</script>

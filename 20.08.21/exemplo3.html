@@ -1,0 +1,16 @@
+<script>
+    var salario = 1100;
+    var salarioliquido;  
+    // salario > 1200 desconta 50
+    if (salario < 1200 ) {
+        salarioliquido = salario;
+    }
+    if (salario > 1200 && salario < 2000) {
+       salarioliquido =  salario - 50;
+    } else {
+   
+       salarioliquido >=  salario - 100;
+    }
+    console.log('salario bruto ' + salario);
+    console.log('salario liquido ' + salarioliquido);
+</script>

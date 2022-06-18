@@ -1,0 +1,18 @@
+<script>
+    var nome = prompt('insira seu nome');
+    var salarioA = parseInt(prompt('insira seu salario atual'));
+    if (salarioA < 2000) {
+     reajuste = salarioA +(salarioA * 0.05);
+   alert( nome + 'Seu salario novo é ' + reajuste);
+        } else if (salarioA >=2000 && salarioA < 2800){
+           reajuste = (0.048 * salarioA)
+           reaj = reajuste + salarioA
+           alert( nome + 'Seu salario novo é ' + reaj);
+        } else if (salarioA >= 2800){
+            reajuste = (0.0475 * salarioA)
+           reaj = reajuste + salarioA
+           alert( nome + 'Seu salario novo é ' + reaj); 
+        }
+
+        
+</script>

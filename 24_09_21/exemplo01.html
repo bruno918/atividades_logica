@@ -1,0 +1,23 @@
+Nota 1 <br/>
+<input id="nota1"/> <br/>
+<button onclick="calcular1()">Calcular</button>
+nota 2 <br/> 
+<input id="nota2"/>
+
+<br/><br/>
+
+<button onclick="calcular()">Calcular</button>
+
+<script> 
+
+function calcular() {
+
+    console.log('calcular');
+
+    let nota1 = parseInt(document.querySelector('#nota1').value);
+    let nota2 = parseInt(document.querySelector('#nota2').value);
+   
+    let media = (nota1 + nota2) /2;
+    alert(media);
+}
+</script>

@@ -1,0 +1,15 @@
+<script>
+var sms = parseInt(prompt('quantos sms voce enviou?'))
+if(sms <= 60 ) {
+    alert('valor = 5 reais')
+} else if (sms > 60 && sms <= 180) {
+    vl = sms - 60
+    vltotal = (vl * 0.05) + 5
+    alert('A quantidade de mensagens foi  ' + sms + ' com um adicional de ' + vl + ' sms ' + ' e custando ' + vltotal + ' reais')
+} else if (sms > 180 ) {
+    vl = sms - 180
+    add = sms - 60
+    vltotal = (vl * 0.10) + 11 //valor maximo de 180 sms = 11 somado as mensagens extras
+    alert('A quantidade de mensagens foi  ' + sms + ' com um adicional de ' + add + ' sms ' + ' e custando ' + vltotal + ' reais')
+}
+</script>
